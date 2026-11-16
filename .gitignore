@@ -1,4 +1,5 @@
-# 构建产物 / 缓存（WeSnip.exe 故意保留，随仓库分发）
+# 构建产物 / 缓存（exe 走 GitHub Releases 附件分发，不入 git）
+WeSnip.exe
 __pycache__/
 _build/
 build/

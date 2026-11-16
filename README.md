@@ -37,7 +37,7 @@
 
 ### 方式一：exe（推荐）
 
-双击 `WeSnip.exe` → 后台常驻（右下角弹"已就绪"提示）→ `Alt+A` 随时截图，`Ctrl+Alt+Q` 退出。
+从 [Releases](https://github.com/tigerhe1995/WeSnip/releases) 下载 `WeSnip.exe` → 双击后台常驻（右下角弹"已就绪"提示）→ `Alt+A` 随时截图，`Ctrl+Alt+Q` 退出。
 任务管理器里进程名显示为 `WeSnip.exe`，描述"微信截图工具"。
 
 开机自启：双击 `开机自启管理.bat` → 自动检测并显示当前状态（英文菜单）→ 输入 `1` 开启/覆盖自启，输入 `2` 取消（写入 `HKCU\...\Run`，参数 `--daemon`）。
