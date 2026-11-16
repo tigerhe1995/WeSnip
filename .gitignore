@@ -1,0 +1,16 @@
+# 构建产物 / 缓存（WeSnip.exe 故意保留，随仓库分发）
+__pycache__/
+_build/
+build/
+dist/
+*.pyc
+
+# 自检输出（保留 README 引用的渲染预览图，忽略其余散图）
+_selftest/*
+!_selftest/selftest_overlay.png
+
+# 系统/编辑器杂项
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
